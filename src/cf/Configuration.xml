@@ -126,10 +126,12 @@
 			<Subsystem>Администрирование</Subsystem>
 			<Subsystem>Инвестиции</Subsystem>
 			<Subsystem>УчастникиРынка</Subsystem>
+			<CommonModule>ОбщегоНазначенияКлиент</CommonModule>
+			<Catalog>Брокеры</Catalog>
+			<Catalog>ДенежныеСчета</Catalog>
 			<Catalog>ТорговыеПлощадки</Catalog>
 			<Catalog>ЦенныеБумаги</Catalog>
 			<Catalog>Эмитенты</Catalog>
-			<Catalog>Брокеры</Catalog>
 			<Enum>ВидыЦенныхБумаг</Enum>
 		</ChildObjects>
 	</Configuration>

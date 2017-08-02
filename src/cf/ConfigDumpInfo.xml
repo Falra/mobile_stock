@@ -1,23 +1,66 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
 	<ConfigVersions>
-		<Metadata name="Catalog.Брокеры" id="ab44313a-ab9a-410c-9bb7-bbcfa4413c53" configVersion="151ff0b7a9541442b69d8735ab0c5e6300000000"/>
-		<Metadata name="Catalog.ТорговыеПлощадки" id="46f506da-375a-40a5-b5cf-39ce5a0098cb" configVersion="e3420bc25f7833438b53881adbcc891500000000"/>
-		<Metadata name="Catalog.ЦенныеБумаги" id="1bbd7a4f-4807-43f6-a7a2-f68604a26bfe" configVersion="9fe4b3fc920cd243afb7af39d90280bd00000000">
-			<Metadata name="Catalog.ЦенныеБумаги.Attribute.Эмитент" id="3dd19392-9e17-4449-bf2c-a9d6e2c81d7f"/>
+		<Metadata name="Catalog.Брокеры" id="ab44313a-ab9a-410c-9bb7-bbcfa4413c53" configVersion="521509c6b426a742a13a2d11d2ae00a300000000">
+			<Metadata name="Catalog.Брокеры.Attribute.ЕДРПОУ" id="508261c6-51ea-4780-b629-171236fe451c"/>
+			<Metadata name="Catalog.Брокеры.Attribute.WebАдрес" id="d98f3315-7c7f-4133-a948-35927870bfa6"/>
+		</Metadata>
+		<Metadata name="Catalog.Брокеры.Form.ФормаСписка" id="dc08f200-8857-4841-9290-2cda255bb022" configVersion="d585fc02ae21e145a5b559a534d680b100000000"/>
+		<Metadata name="Catalog.Брокеры.Form.ФормаСписка.Form" id="dc08f200-8857-4841-9290-2cda255bb022.0" configVersion="8a5c7971a2b2c84aa33298ff690ccb7100000000"/>
+		<Metadata name="Catalog.Брокеры.Form.ФормаЭлемента" id="d67a89af-0d7c-4db0-9e83-05b6d88085f3" configVersion="57bf3fa51e4c5e4d8594a5a868f48d2200000000"/>
+		<Metadata name="Catalog.Брокеры.Form.ФормаЭлемента.Form" id="d67a89af-0d7c-4db0-9e83-05b6d88085f3.0" configVersion="53491096770ab045af50eafcb362afee00000000"/>
+		<Metadata name="Catalog.ДенежныеСчета" id="704194b9-ad37-4cab-a0d5-d95f936ac93e" configVersion="24411c16da9f0e41b0b4fed3d2d7403200000000">
+			<Metadata name="Catalog.ДенежныеСчета.Attribute.Брокер" id="5ee45013-c440-43c9-9b21-bf070b6a2ed1"/>
+			<Metadata name="Catalog.ДенежныеСчета.Attribute.ТорговаяПлощадка" id="fdad6b48-4480-4d45-a4c9-a0bdcee40f46"/>
+		</Metadata>
+		<Metadata name="Catalog.ДенежныеСчета.Form.ФормаСписка" id="3aabf3a5-c5f9-447c-b1fc-3033a948e49f" configVersion="6d83b7f947016e48b4fe80cbd8a7f59d00000000"/>
+		<Metadata name="Catalog.ДенежныеСчета.Form.ФормаСписка.Form" id="3aabf3a5-c5f9-447c-b1fc-3033a948e49f.0" configVersion="8c007c9694f61f409aee06d002f4514f00000000"/>
+		<Metadata name="Catalog.ДенежныеСчета.Form.ФормаЭлемента" id="31a65119-7a85-450c-8d73-03716203d287" configVersion="e6048c0b1fd30247ba2da93af860b94900000000"/>
+		<Metadata name="Catalog.ДенежныеСчета.Form.ФормаЭлемента.Form" id="31a65119-7a85-450c-8d73-03716203d287.0" configVersion="6ef284adb6edba47bfb796e6103cb6f100000000"/>
+		<Metadata name="Catalog.ТорговыеПлощадки" id="46f506da-375a-40a5-b5cf-39ce5a0098cb" configVersion="cce0d6a26f826c41a8f913ff910214f300000000">
+			<Metadata name="Catalog.ТорговыеПлощадки.Attribute.WebАдрес" id="df20a472-f0e5-4e42-94a2-b6678f6e20fa"/>
+		</Metadata>
+		<Metadata name="Catalog.ТорговыеПлощадки.Form.ФормаВыбора" id="18391460-afa7-4cba-ae0e-3c1fdfbabdc0" configVersion="50fd97589a41de45a164a3fea39ee45100000000"/>
+		<Metadata name="Catalog.ТорговыеПлощадки.Form.ФормаВыбора.Form" id="18391460-afa7-4cba-ae0e-3c1fdfbabdc0.0" configVersion="ae148a1aeeafcb4bbd11e8330112a1d500000000"/>
+		<Metadata name="Catalog.ТорговыеПлощадки.Form.ФормаСписка" id="3ce6108c-fbec-408f-81dd-a289ac0b6c26" configVersion="cd3d39c02f19ad47958e28a487d8269f00000000"/>
+		<Metadata name="Catalog.ТорговыеПлощадки.Form.ФормаСписка.Form" id="3ce6108c-fbec-408f-81dd-a289ac0b6c26.0" configVersion="34dd63e240937845a03a570d5d62fe0600000000"/>
+		<Metadata name="Catalog.ТорговыеПлощадки.Form.ФормаЭлемента" id="43628dbc-4ddf-4eba-8e47-2b1bae12d585" configVersion="860eee9a388fd144a8d3079b5c6b909600000000"/>
+		<Metadata name="Catalog.ТорговыеПлощадки.Form.ФормаЭлемента.Form" id="43628dbc-4ddf-4eba-8e47-2b1bae12d585.0" configVersion="755d5d4e2d954d4f9c2ec4930bb1b86e00000000"/>
+		<Metadata name="Catalog.ЦенныеБумаги" id="1bbd7a4f-4807-43f6-a7a2-f68604a26bfe" configVersion="4927a0f0a682a14e9da770ccc9af372800000000">
+			<Metadata name="Catalog.ЦенныеБумаги.Attribute.ISIN" id="6e8b6187-5044-42ef-a409-41f18910aaad"/>
+			<Metadata name="Catalog.ЦенныеБумаги.Attribute.Кратность" id="6ef5bc09-bcca-4fb1-8334-227548428ec1"/>
+			<Metadata name="Catalog.ЦенныеБумаги.Attribute.Количество" id="aa1cf60f-b43c-4674-a2bd-f3dcfb19d417"/>
 			<Metadata name="Catalog.ЦенныеБумаги.Attribute.Вид" id="d960911a-5717-42f1-8f17-94fbfeec9396"/>
 		</Metadata>
-		<Metadata name="Catalog.Эмитенты" id="247cdcff-7024-484a-bf63-6ab4e0274fac" configVersion="7bb92951928a31408630861422a2542500000000"/>
-		<Metadata name="Configuration.МаленькийИнвестор" id="18981491-3083-48b3-bf0f-0f243b89372d" configVersion="b29fed42afa6514cb30d760809a8994c00000000"/>
+		<Metadata name="Catalog.ЦенныеБумаги.Form.ФормаВыбора" id="75b7f7e9-8ac6-4ea3-9603-9d2a780e2317" configVersion="8f7d4d17ed672646b1fcd621288e979c00000000"/>
+		<Metadata name="Catalog.ЦенныеБумаги.Form.ФормаВыбора.Form" id="75b7f7e9-8ac6-4ea3-9603-9d2a780e2317.0" configVersion="b64292f9012a8f428497e2d5307dc14200000000"/>
+		<Metadata name="Catalog.ЦенныеБумаги.Form.ФормаСписка" id="3d0a8a3b-4861-4036-bf5e-e1848ee1762a" configVersion="fd5bcf778e36084f9b7f74ddad9b6dc300000000"/>
+		<Metadata name="Catalog.ЦенныеБумаги.Form.ФормаСписка.Form" id="3d0a8a3b-4861-4036-bf5e-e1848ee1762a.0" configVersion="c7714042ffa12d45b841e5119a204b0000000000"/>
+		<Metadata name="Catalog.ЦенныеБумаги.Form.ФормаЭлемента" id="969db0c4-e8a0-4246-a401-62c21b49e228" configVersion="fcd24f43c4a2554ab4af727743efacb700000000"/>
+		<Metadata name="Catalog.ЦенныеБумаги.Form.ФормаЭлемента.Form" id="969db0c4-e8a0-4246-a401-62c21b49e228.0" configVersion="42415b1b15ee8c4f8507c4b7177bdd5600000000"/>
+		<Metadata name="Catalog.Эмитенты" id="247cdcff-7024-484a-bf63-6ab4e0274fac" configVersion="60dcac9d9439884ca38955edaad48f5900000000">
+			<Metadata name="Catalog.Эмитенты.Attribute.WebАдрес" id="51e62e79-a0ef-4b55-a75c-e1465bafad73"/>
+			<Metadata name="Catalog.Эмитенты.Attribute.ЕДРПОУ" id="ed46dab8-4a09-4bac-89ab-0f0ec9f95c55"/>
+		</Metadata>
+		<Metadata name="Catalog.Эмитенты.Form.ФормаСписка" id="fa882a6b-08f2-4d55-aee5-414e2693dc90" configVersion="4fbde7ee460e14439df81f28d874969200000000"/>
+		<Metadata name="Catalog.Эмитенты.Form.ФормаСписка.Form" id="fa882a6b-08f2-4d55-aee5-414e2693dc90.0" configVersion="0c565d32cfc75745862625b33dd636bd00000000"/>
+		<Metadata name="Catalog.Эмитенты.Form.ФормаЭлемента" id="8c13d746-d36e-41a9-ad07-ec5ff6387bd6" configVersion="91750f5431a74c44aad094b2da128c5c00000000"/>
+		<Metadata name="Catalog.Эмитенты.Form.ФормаЭлемента.Form" id="8c13d746-d36e-41a9-ad07-ec5ff6387bd6.0" configVersion="01db538fcf36df4287a74644cf70d19000000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиент" id="07192f39-45c8-4b5d-a6de-fc763a9a4d13" configVersion="961fdd6b89d3284bafa48f1ed1883ba800000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиент.Module" id="07192f39-45c8-4b5d-a6de-fc763a9a4d13.0" configVersion="e6e90714a6ab5346a6bdb3c35e50573500000000"/>
+		<Metadata name="Configuration.МаленькийИнвестор" id="18981491-3083-48b3-bf0f-0f243b89372d" configVersion="a6a5ec6c42a072479dc2779020e8972500000000"/>
 		<Metadata name="Configuration.МаленькийИнвестор.CommandInterface" id="a89fb398-24e1-48da-afe9-8806ed393aa9.a" configVersion="3549142859e8af45862140b1a218aea200000000"/>
-		<Metadata name="Enum.ВидыЦенныхБумаг" id="e4b4c303-23a5-4aa6-a4f9-ed65d87a87f1" configVersion="03be377af8fd9b4e820e1f3b86af81e300000000">
+		<Metadata name="Enum.ВидыЦенныхБумаг" id="e4b4c303-23a5-4aa6-a4f9-ed65d87a87f1" configVersion="46384011ecbeb045920d8c5bd61a38e200000000">
 			<Metadata name="Enum.ВидыЦенныхБумаг.EnumValue.ИнвестиционныеСертификаты" id="71075098-99a1-4879-a7d6-e46f204dcf03"/>
 			<Metadata name="Enum.ВидыЦенныхБумаг.EnumValue.Акции" id="8e07a404-140f-4902-84ec-50d86f36eb65"/>
+			<Metadata name="Enum.ВидыЦенныхБумаг.EnumValue.Индекс" id="ee38fd06-7290-487d-a2a8-16a13d8ac186"/>
 		</Metadata>
 		<Metadata name="Enum.ВидыЦенныхБумаг.ManagerModule" id="e4b4c303-23a5-4aa6-a4f9-ed65d87a87f1.0" configVersion="aab51f3fef0e65489cba830d56afb52100000000"/>
 		<Metadata name="Language.Русский" id="cd21c69e-dc97-4e36-9f07-3d41d76b6f7d" configVersion="9ca6e268fa826642877aaaa6bf2f0fb100000000"/>
 		<Metadata name="Subsystem.Администрирование" id="d4b2cc92-9951-4554-b68f-01f8a17cbe55" configVersion="555f274d8298cb4b92168d60856157ae00000000"/>
-		<Metadata name="Subsystem.Инвестиции" id="d3eca78f-04f3-48be-ae0b-356d95bea7e2" configVersion="bbc67683c224334c80fb65445f744af300000000"/>
-		<Metadata name="Subsystem.УчастникиРынка" id="4b9a483a-d5e9-440a-866f-207aa7e8f46a" configVersion="76720ffbd873dc4a8cb9eee641f6aac700000000"/>
+		<Metadata name="Subsystem.Инвестиции" id="d3eca78f-04f3-48be-ae0b-356d95bea7e2" configVersion="14bed0399b81ab44a806ec60f1468ee100000000"/>
+		<Metadata name="Subsystem.Инвестиции.CommandInterface" id="d3eca78f-04f3-48be-ae0b-356d95bea7e2.1" configVersion="b043a9ef39711247b058f05e7197b26100000000"/>
+		<Metadata name="Subsystem.УчастникиРынка" id="4b9a483a-d5e9-440a-866f-207aa7e8f46a" configVersion="e29ab3f8b5feb046bd6791bdbbebaed700000000"/>
+		<Metadata name="Subsystem.УчастникиРынка.CommandInterface" id="4b9a483a-d5e9-440a-866f-207aa7e8f46a.1" configVersion="bf94633d13d2c74694fb6c646379c86800000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

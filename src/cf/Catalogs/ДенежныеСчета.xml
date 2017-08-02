@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
-	<Catalog uuid="247cdcff-7024-484a-bf63-6ab4e0274fac">
+	<Catalog uuid="704194b9-ad37-4cab-a0d5-d95f936ac93e">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Эмитенты" category="Object">
-				<xr:TypeId>fd6e8e76-3f66-41bb-a704-c73c45474ff8</xr:TypeId>
-				<xr:ValueId>aa1b4895-ecba-447e-83a1-5ebfdd15c4dc</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.ДенежныеСчета" category="Object">
+				<xr:TypeId>32c097f5-4a0d-49f8-8582-98194dc695e2</xr:TypeId>
+				<xr:ValueId>213b3c29-3136-4897-becc-d69c4ae1c62a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Эмитенты" category="Ref">
-				<xr:TypeId>f1955080-a0c7-431e-98c4-fcf4b142cf9b</xr:TypeId>
-				<xr:ValueId>40baebfd-a130-4262-b9a4-a04e5d7b52ad</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.ДенежныеСчета" category="Ref">
+				<xr:TypeId>d8622255-ecac-4d74-b8b5-bb69b83358ed</xr:TypeId>
+				<xr:ValueId>4f1f4279-6ef5-48d0-ac85-e54aa96bf0c5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Эмитенты" category="Selection">
-				<xr:TypeId>16822297-0d58-44c1-afef-073d320a4173</xr:TypeId>
-				<xr:ValueId>362efd63-eb1d-408f-b36d-ca02326e0000</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.ДенежныеСчета" category="Selection">
+				<xr:TypeId>196acf87-9da0-4543-bb28-da129b158137</xr:TypeId>
+				<xr:ValueId>8c0ba95f-8390-48dc-8704-b8d8327e7f92</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Эмитенты" category="List">
-				<xr:TypeId>c313fb8a-b703-4c95-a5ac-88666a95ccd8</xr:TypeId>
-				<xr:ValueId>1d173bc5-602e-4b4c-a4e6-aca95928f221</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.ДенежныеСчета" category="List">
+				<xr:TypeId>bbc57354-2b13-4871-9ffd-84e1b45d63be</xr:TypeId>
+				<xr:ValueId>0452b6f2-bda1-402e-a2c4-98f1fdbcbf8f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Эмитенты" category="Manager">
-				<xr:TypeId>f30c2eb3-8343-4e29-9458-8317f9832685</xr:TypeId>
-				<xr:ValueId>82a0369a-6951-450e-b9fb-3f0796e877f6</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.ДенежныеСчета" category="Manager">
+				<xr:TypeId>818892d8-ca0f-4d4b-9677-7db68bbdc45c</xr:TypeId>
+				<xr:ValueId>f1b70136-0670-4a95-a189-b68576e986a0</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Эмитенты</Name>
+			<Name>ДенежныеСчета</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Эмитенты</v8:content>
+					<v8:content>Денежные счета</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -46,7 +46,7 @@
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
 			<CheckUnique>true</CheckUnique>
-			<Autonumbering>false</Autonumbering>
+			<Autonumbering>true</Autonumbering>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<Characteristics/>
 			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
@@ -54,15 +54,15 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Эмитенты.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Эмитенты.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.ДенежныеСчета.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.ДенежныеСчета.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.Эмитенты.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm>Catalog.ДенежныеСчета.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
-			<DefaultListForm>Catalog.Эмитенты.Form.ФормаСписка</DefaultListForm>
+			<DefaultListForm>Catalog.ДенежныеСчета.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<DefaultFolderChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -78,13 +78,13 @@
 			<ObjectPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Эмитент</v8:content>
+					<v8:content>Счет</v8:content>
 				</v8:item>
 			</ObjectPresentation>
 			<ExtendedObjectPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Эмитент ценных бумаг</v8:content>
+					<v8:content>Денежный счет</v8:content>
 				</v8:item>
 			</ExtendedObjectPresentation>
 			<ListPresentation/>
@@ -94,22 +94,18 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="ed46dab8-4a09-4bac-89ab-0f0ec9f95c55">
+			<Attribute uuid="fdad6b48-4480-4d45-a4c9-a0bdcee40f46">
 				<Properties>
-					<Name>ЕДРПОУ</Name>
+					<Name>ТорговаяПлощадка</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ЕДРПОУ</v8:content>
+							<v8:content>Торговая площадка</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>10</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>cfg:CatalogRef.ТорговыеПлощадки</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -122,7 +118,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
+					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
@@ -137,22 +133,18 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="51e62e79-a0ef-4b55-a75c-e1465bafad73">
+			<Attribute uuid="5ee45013-c440-43c9-9b21-bf070b6a2ed1">
 				<Properties>
-					<Name>WebАдрес</Name>
+					<Name>Брокер</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Web адрес</v8:content>
+							<v8:content>Брокер</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>250</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>cfg:CatalogRef.Брокеры</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -165,7 +157,7 @@
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
 					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
+					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 					<ChoiceParameterLinks/>
