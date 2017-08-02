@@ -124,6 +124,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Администрирование</Subsystem>
+			<Subsystem>ЗатратыИНалогообложение</Subsystem>
 			<Subsystem>Инвестиции</Subsystem>
 			<Subsystem>УчастникиРынка</Subsystem>
 			<CommonModule>ОбщегоНазначенияКлиент</CommonModule>
@@ -132,7 +133,13 @@
 			<Catalog>ТорговыеПлощадки</Catalog>
 			<Catalog>ЦенныеБумаги</Catalog>
 			<Catalog>Эмитенты</Catalog>
+			<Document>ВводСредств</Document>
+			<Document>Сделка</Document>
 			<Enum>ВидыЦенныхБумаг</Enum>
+			<Enum>ТипыЗатрат</Enum>
+			<AccumulationRegister>ОстаткиДенежныхСредств</AccumulationRegister>
+			<AccumulationRegister>Затраты</AccumulationRegister>
+			<AccumulationRegister>БалансоваяСтоимостьБумаг</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
