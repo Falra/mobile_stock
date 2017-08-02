@@ -1,3 +1,13 @@
 ﻿ConfigDumpInfo.xml-->ConfigDumpInfo.xml
 Configuration.xml-->Configuration.xml
+Catalogs\Брокеры.xml-->Catalogs\Брокеры.xml
+Catalogs\ТорговыеПлощадки.xml-->Catalogs\ТорговыеПлощадки.xml
+Catalogs\ЦенныеБумаги.xml-->Catalogs\ЦенныеБумаги.xml
+Catalogs\Эмитенты.xml-->Catalogs\Эмитенты.xml
+Enums\ВидыЦенныхБумаг.xml-->Enums\ВидыЦенныхБумаг.xml
+Enums\ВидыЦенныхБумаг\Ext\ManagerModule.bsl-->Enums\ВидыЦенныхБумаг\Ext\ManagerModule.bsl
+Ext\CommandInterface.xml-->Ext\CommandInterface.xml
 Languages\Русский.xml-->Languages\Русский.xml
+Subsystems\Администрирование.xml-->Subsystems\Администрирование.xml
+Subsystems\Инвестиции.xml-->Subsystems\Инвестиции.xml
+Subsystems\УчастникиРынка.xml-->Subsystems\УчастникиРынка.xml

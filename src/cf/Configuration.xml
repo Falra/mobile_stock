@@ -123,6 +123,14 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Администрирование</Subsystem>
+			<Subsystem>Инвестиции</Subsystem>
+			<Subsystem>УчастникиРынка</Subsystem>
+			<Catalog>ТорговыеПлощадки</Catalog>
+			<Catalog>ЦенныеБумаги</Catalog>
+			<Catalog>Эмитенты</Catalog>
+			<Catalog>Брокеры</Catalog>
+			<Enum>ВидыЦенныхБумаг</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

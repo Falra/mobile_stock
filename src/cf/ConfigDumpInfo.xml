@@ -1,7 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.4">
 	<ConfigVersions>
-		<Metadata name="Configuration.МаленькийИнвестор" id="18981491-3083-48b3-bf0f-0f243b89372d" configVersion="f566c480ab7b45418f976ed9b6a9b9fc00000000"/>
+		<Metadata name="Catalog.Брокеры" id="ab44313a-ab9a-410c-9bb7-bbcfa4413c53" configVersion="151ff0b7a9541442b69d8735ab0c5e6300000000"/>
+		<Metadata name="Catalog.ТорговыеПлощадки" id="46f506da-375a-40a5-b5cf-39ce5a0098cb" configVersion="e3420bc25f7833438b53881adbcc891500000000"/>
+		<Metadata name="Catalog.ЦенныеБумаги" id="1bbd7a4f-4807-43f6-a7a2-f68604a26bfe" configVersion="9fe4b3fc920cd243afb7af39d90280bd00000000">
+			<Metadata name="Catalog.ЦенныеБумаги.Attribute.Эмитент" id="3dd19392-9e17-4449-bf2c-a9d6e2c81d7f"/>
+			<Metadata name="Catalog.ЦенныеБумаги.Attribute.Вид" id="d960911a-5717-42f1-8f17-94fbfeec9396"/>
+		</Metadata>
+		<Metadata name="Catalog.Эмитенты" id="247cdcff-7024-484a-bf63-6ab4e0274fac" configVersion="7bb92951928a31408630861422a2542500000000"/>
+		<Metadata name="Configuration.МаленькийИнвестор" id="18981491-3083-48b3-bf0f-0f243b89372d" configVersion="b29fed42afa6514cb30d760809a8994c00000000"/>
+		<Metadata name="Configuration.МаленькийИнвестор.CommandInterface" id="a89fb398-24e1-48da-afe9-8806ed393aa9.a" configVersion="3549142859e8af45862140b1a218aea200000000"/>
+		<Metadata name="Enum.ВидыЦенныхБумаг" id="e4b4c303-23a5-4aa6-a4f9-ed65d87a87f1" configVersion="03be377af8fd9b4e820e1f3b86af81e300000000">
+			<Metadata name="Enum.ВидыЦенныхБумаг.EnumValue.ИнвестиционныеСертификаты" id="71075098-99a1-4879-a7d6-e46f204dcf03"/>
+			<Metadata name="Enum.ВидыЦенныхБумаг.EnumValue.Акции" id="8e07a404-140f-4902-84ec-50d86f36eb65"/>
+		</Metadata>
+		<Metadata name="Enum.ВидыЦенныхБумаг.ManagerModule" id="e4b4c303-23a5-4aa6-a4f9-ed65d87a87f1.0" configVersion="aab51f3fef0e65489cba830d56afb52100000000"/>
 		<Metadata name="Language.Русский" id="cd21c69e-dc97-4e36-9f07-3d41d76b6f7d" configVersion="9ca6e268fa826642877aaaa6bf2f0fb100000000"/>
+		<Metadata name="Subsystem.Администрирование" id="d4b2cc92-9951-4554-b68f-01f8a17cbe55" configVersion="555f274d8298cb4b92168d60856157ae00000000"/>
+		<Metadata name="Subsystem.Инвестиции" id="d3eca78f-04f3-48be-ae0b-356d95bea7e2" configVersion="bbc67683c224334c80fb65445f744af300000000"/>
+		<Metadata name="Subsystem.УчастникиРынка" id="4b9a483a-d5e9-440a-866f-207aa7e8f46a" configVersion="76720ffbd873dc4a8cb9eee641f6aac700000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
