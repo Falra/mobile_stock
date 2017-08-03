@@ -3,6 +3,7 @@
 	<SubsystemsOrder>
 		<Subsystem>Subsystem.Инвестиции</Subsystem>
 		<Subsystem>Subsystem.УчастникиРынка</Subsystem>
+		<Subsystem>Subsystem.ЗатратыИНалогообложение</Subsystem>
 		<Subsystem>Subsystem.Администрирование</Subsystem>
 	</SubsystemsOrder>
 </CommandInterface>
