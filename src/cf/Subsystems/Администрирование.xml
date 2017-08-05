@@ -19,6 +19,7 @@
 			</Picture>
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ТорговыеПлощадки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.НастройкаПараметровУчета</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

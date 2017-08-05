@@ -27,6 +27,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.БалансоваяСтоимостьБумаг</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПродажаЦенныхБумаг</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЦенныеБумагиСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыводСредств</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

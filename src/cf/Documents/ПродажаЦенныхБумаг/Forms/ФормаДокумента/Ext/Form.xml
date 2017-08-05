@@ -4,6 +4,10 @@
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаШапка" id="31">
 			<Title>
@@ -124,13 +128,21 @@
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ЦенаКонтекстноеМеню" id="23"/>
 									<ExtendedTooltip name="ЦенаРасширеннаяПодсказка" id="24"/>
+									<Events>
+										<Event name="OnChange">ЦенаПриИзменении</Event>
+									</Events>
 								</InputField>
 								<InputField name="Количество" id="19">
 									<DataPath>Объект.Количество</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ChoiceButton>true</ChoiceButton>
+									<SpinButton>true</SpinButton>
 									<ContextMenu name="КоличествоКонтекстноеМеню" id="20"/>
 									<ExtendedTooltip name="КоличествоРасширеннаяПодсказка" id="21"/>
+									<Events>
+										<Event name="OnChange">КоличествоПриИзменении</Event>
+										<Event name="Tuning">КоличествоРегулирование</Event>
+									</Events>
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
@@ -157,6 +169,9 @@
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="СуммаКонтекстноеМеню" id="26"/>
 									<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="27"/>
+									<Events>
+										<Event name="OnChange">СуммаПриИзменении</Event>
+									</Events>
 								</InputField>
 								<InputField name="Комиссия" id="28">
 									<DataPath>Объект.Комиссия</DataPath>

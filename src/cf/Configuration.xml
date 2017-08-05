@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Валерий Дяченко</Vendor>
-			<Version>0.0.1.0</Version>
+			<Version>0.0.1.2</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -131,13 +131,23 @@
 			<CommonPicture>Продать</CommonPicture>
 			<CommonPicture>Администрирование</CommonPicture>
 			<CommonPicture>Инвестиции</CommonPicture>
+			<CommonPicture>ФинансовыйРезультат</CommonPicture>
 			<CommonPicture>Налогообложение</CommonPicture>
 			<CommonPicture>УчастникиРынка</CommonPicture>
+			<CommonPicture>Бумаги</CommonPicture>
+			<CommonPicture>ДенежныеСредства</CommonPicture>
 			<CommonModule>ДенежныеСредстваСервер</CommonModule>
 			<CommonModule>ЗаполнениеДокументовСервер</CommonModule>
 			<CommonModule>ЗатратыСервер</CommonModule>
 			<CommonModule>ОбщегоНазначенияКлиент</CommonModule>
 			<CommonModule>ЦенныеБумагиСервер</CommonModule>
+			<CommonModule>ОбработкаТабличныхЧастейСервер</CommonModule>
+			<CommonModule>ОбщегоНазначенияСерверПовтИсп</CommonModule>
+			<Constant>ТорговаяПлощадка</Constant>
+			<Constant>Брокер</Constant>
+			<Constant>Счет</Constant>
+			<CommonForm>НастройкаПараметровУчета</CommonForm>
+			<CommonForm>РабочийСтол</CommonForm>
 			<Catalog>Брокеры</Catalog>
 			<Catalog>ДенежныеСчета</Catalog>
 			<Catalog>ТорговыеПлощадки</Catalog>
@@ -146,6 +156,7 @@
 			<Document>ВводСредств</Document>
 			<Document>ПокупкаЦенныхБумаг</Document>
 			<Document>ПродажаЦенныхБумаг</Document>
+			<Document>ВыводСредств</Document>
 			<Enum>ВидыЦенныхБумаг</Enum>
 			<Enum>ТипыЗатрат</Enum>
 			<AccumulationRegister>ОстаткиДенежныхСредств</AccumulationRegister>
