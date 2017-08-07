@@ -141,7 +141,6 @@
 			<CommonModule>ЗатратыСервер</CommonModule>
 			<CommonModule>ОбщегоНазначенияКлиент</CommonModule>
 			<CommonModule>ЦенныеБумагиСервер</CommonModule>
-			<CommonModule>ОбработкаТабличныхЧастейСервер</CommonModule>
 			<CommonModule>ОбщегоНазначенияСерверПовтИсп</CommonModule>
 			<Constant>ТорговаяПлощадка</Constant>
 			<Constant>Брокер</Constant>
@@ -154,11 +153,15 @@
 			<Catalog>ЦенныеБумаги</Catalog>
 			<Catalog>Эмитенты</Catalog>
 			<Document>ВводСредств</Document>
+			<Document>ВыводСредств</Document>
 			<Document>ПокупкаЦенныхБумаг</Document>
 			<Document>ПродажаЦенныхБумаг</Document>
-			<Document>ВыводСредств</Document>
 			<Enum>ВидыЦенныхБумаг</Enum>
 			<Enum>ТипыЗатрат</Enum>
+			<Enum>ТипыПериода</Enum>
+			<DataProcessor>ПолучитьКурсыБумаг</DataProcessor>
+			<InformationRegister>КомиссияБрокера</InformationRegister>
+			<InformationRegister>КурсыБумаг</InformationRegister>
 			<AccumulationRegister>ОстаткиДенежныхСредств</AccumulationRegister>
 			<AccumulationRegister>Затраты</AccumulationRegister>
 			<AccumulationRegister>БалансоваяСтоимостьБумаг</AccumulationRegister>

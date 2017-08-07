@@ -4,10 +4,6 @@
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
-	<Events>
-		<Event name="OnOpen">ПриОткрытии</Event>
-		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
-	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаШапка" id="31">
 			<Title>
@@ -69,12 +65,18 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ТорговаяПлощадкаКонтекстноеМеню" id="8"/>
 					<ExtendedTooltip name="ТорговаяПлощадкаРасширеннаяПодсказка" id="9"/>
+					<Events>
+						<Event name="OnChange">ТорговаяПлощадкаПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="Брокер" id="10">
 					<DataPath>Объект.Брокер</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="БрокерКонтекстноеМеню" id="11"/>
 					<ExtendedTooltip name="БрокерРасширеннаяПодсказка" id="12"/>
+					<Events>
+						<Event name="OnChange">БрокерПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="Счет" id="13">
 					<DataPath>Объект.Счет</DataPath>
@@ -87,6 +89,9 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="БумагаКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="БумагаРасширеннаяПодсказка" id="18"/>
+					<Events>
+						<Event name="OnChange">БумагаПриИзменении</Event>
+					</Events>
 				</InputField>
 				<UsualGroup name="ГруппаЧисловыеПоказатели" id="54">
 					<Title>
