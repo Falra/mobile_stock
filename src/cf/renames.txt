@@ -84,6 +84,7 @@ Constants\ТорговаяПлощадка.xml-->Constants\ТорговаяПл�
 DataProcessors\ПолучитьКурсыБумаг.xml-->DataProcessors\ПолучитьКурсыБумаг.xml
 DataProcessors\ПолучитьКурсыБумаг\Forms\Форма.xml-->DataProcessors\ПолучитьКурсыБумаг\Forms\Форма.xml
 DataProcessors\ПолучитьКурсыБумаг\Forms\Форма\Ext\Form.xml-->DataProcessors\ПолучитьКурсыБумаг\Forms\Форма\Ext\Form.xml
+DataProcessors\ПолучитьКурсыБумаг\Forms\Форма\Ext\Form\Module.bsl-->DataProcessors\ПолучитьКурсыБумаг\Forms\Форма\Ext\Form\Module.bsl
 Documents\ВводСредств.xml-->Documents\ВводСредств.xml
 Documents\ВыводСредств.xml-->Documents\ВыводСредств.xml
 Documents\ПокупкаЦенныхБумаг.xml-->Documents\ПокупкаЦенныхБумаг.xml
