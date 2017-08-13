@@ -29,7 +29,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЦенныеБумагиСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыводСредств</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КурсыБумаг</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПолучитьКурсыБумаг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузкаКурсовБумаг</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

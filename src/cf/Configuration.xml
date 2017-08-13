@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Валерий Дяченко</Vendor>
-			<Version>0.0.1.2</Version>
+			<Version>0.0.1.4</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -142,6 +142,7 @@
 			<CommonModule>ОбщегоНазначенияКлиент</CommonModule>
 			<CommonModule>ЦенныеБумагиСервер</CommonModule>
 			<CommonModule>ОбщегоНазначенияСерверПовтИсп</CommonModule>
+			<CommonModule>ПомошникИнтеграциииHTTPСервисовКлиентСервер</CommonModule>
 			<Constant>ТорговаяПлощадка</Constant>
 			<Constant>Брокер</Constant>
 			<Constant>Счет</Constant>
@@ -159,7 +160,7 @@
 			<Enum>ВидыЦенныхБумаг</Enum>
 			<Enum>ТипыЗатрат</Enum>
 			<Enum>ТипыПериода</Enum>
-			<DataProcessor>ПолучитьКурсыБумаг</DataProcessor>
+			<DataProcessor>ЗагрузкаКурсовБумаг</DataProcessor>
 			<InformationRegister>КомиссияБрокера</InformationRegister>
 			<InformationRegister>КурсыБумаг</InformationRegister>
 			<AccumulationRegister>ОстаткиДенежныхСредств</AccumulationRegister>
