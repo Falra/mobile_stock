@@ -59,6 +59,7 @@
 			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
+			<DataHistory>DontUse</DataHistory>
 		</Properties>
 		<ChildObjects>
 			<Resource uuid="71b67fd0-3f9c-4b2d-bb08-6f37ade4128d">
@@ -100,6 +101,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
 			<Resource uuid="94c20715-a4c9-493e-92a4-1f70eba3f577">
@@ -141,6 +143,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
 			<Resource uuid="c6373fc8-3f27-409e-b5ef-65e299c51596">
@@ -184,6 +187,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
 			<Resource uuid="7a3fbf17-8a92-4037-b182-a9029658f77f">
@@ -227,6 +231,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
 			<Resource uuid="b101e1c2-df29-4df0-bcc3-7d15b4964995">
@@ -270,6 +275,7 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<Indexing>DontIndex</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
 			<Dimension uuid="3d08572c-cce5-4a41-acb2-9263f7811db6">
@@ -311,6 +317,7 @@
 					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>Index</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
 			<Dimension uuid="307f67ba-09f2-4346-9fa5-1c8ff5d9285a">
@@ -352,6 +359,7 @@
 					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>Index</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
 			<Dimension uuid="22b3755a-b29e-442d-8d66-8d5166d6f375">
@@ -393,6 +401,7 @@
 					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>Index</Indexing>
 					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
 		</ChildObjects>
