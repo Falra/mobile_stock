@@ -2,41 +2,41 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<InformationRegister uuid="557a31e3-9c26-4eac-ab94-4d7afd4ba062">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.КурсыБумаг" category="Record">
+			<xr:GeneratedType name="InformationRegisterRecord.КотировкиЦенныхБумаг" category="Record">
 				<xr:TypeId>63aa7f61-f45a-49da-9d4b-a2ca9311a289</xr:TypeId>
 				<xr:ValueId>f908334e-d9a9-4db1-8dc8-47cfaf1a4990</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.КурсыБумаг" category="Manager">
+			<xr:GeneratedType name="InformationRegisterManager.КотировкиЦенныхБумаг" category="Manager">
 				<xr:TypeId>d121cce8-6f8b-4f3b-97c8-448d78981349</xr:TypeId>
 				<xr:ValueId>2f53444c-47ef-484f-b832-9da822d51506</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.КурсыБумаг" category="Selection">
+			<xr:GeneratedType name="InformationRegisterSelection.КотировкиЦенныхБумаг" category="Selection">
 				<xr:TypeId>cd94da9c-d19f-46fb-b448-a0b03e6a8807</xr:TypeId>
 				<xr:ValueId>62424394-46da-4d32-8739-f7a7ad6c7742</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.КурсыБумаг" category="List">
+			<xr:GeneratedType name="InformationRegisterList.КотировкиЦенныхБумаг" category="List">
 				<xr:TypeId>7cb2dd28-658b-470b-9b82-a886c03b8e8d</xr:TypeId>
 				<xr:ValueId>9796e000-f315-4ae8-a6a6-1a66d661f010</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.КурсыБумаг" category="RecordSet">
+			<xr:GeneratedType name="InformationRegisterRecordSet.КотировкиЦенныхБумаг" category="RecordSet">
 				<xr:TypeId>8642f202-966a-4de7-b608-06af0fa749e9</xr:TypeId>
 				<xr:ValueId>9a55fc3f-ac5c-438e-976e-2c5194b19962</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.КурсыБумаг" category="RecordKey">
+			<xr:GeneratedType name="InformationRegisterRecordKey.КотировкиЦенныхБумаг" category="RecordKey">
 				<xr:TypeId>066a147d-c3f1-4080-9602-ff79820ac04c</xr:TypeId>
 				<xr:ValueId>42ded9a7-f101-4200-be80-bb8325fa98cb</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.КурсыБумаг" category="RecordManager">
+			<xr:GeneratedType name="InformationRegisterRecordManager.КотировкиЦенныхБумаг" category="RecordManager">
 				<xr:TypeId>f3042358-97b3-419e-b1d8-e40bf86b8ba7</xr:TypeId>
 				<xr:ValueId>e91e2ada-9c3b-438f-b8a9-d3d0ff496a95</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>КурсыБумаг</Name>
+			<Name>КотировкиЦенныхБумаг</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Курсы бумаг</v8:content>
+					<v8:content>Котировки ценных бумаг</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>

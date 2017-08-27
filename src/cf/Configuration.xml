@@ -160,9 +160,9 @@
 			<Enum>ВидыЦенныхБумаг</Enum>
 			<Enum>ТипыЗатрат</Enum>
 			<Enum>ТипыПериода</Enum>
-			<DataProcessor>ЗагрузкаКурсовБумаг</DataProcessor>
+			<DataProcessor>ЗагрузкаКотировок</DataProcessor>
 			<InformationRegister>КомиссияБрокера</InformationRegister>
-			<InformationRegister>КурсыБумаг</InformationRegister>
+			<InformationRegister>КотировкиЦенныхБумаг</InformationRegister>
 			<AccumulationRegister>ОстаткиДенежныхСредств</AccumulationRegister>
 			<AccumulationRegister>Затраты</AccumulationRegister>
 			<AccumulationRegister>БалансоваяСтоимостьБумаг</AccumulationRegister>

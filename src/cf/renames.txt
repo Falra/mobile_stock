@@ -83,10 +83,10 @@ CommonPictures\ФинансовыйРезультат\Ext\Picture\Picture.png-->
 Constants\Брокер.xml-->Constants\Брокер.xml
 Constants\Счет.xml-->Constants\Счет.xml
 Constants\ТорговаяПлощадка.xml-->Constants\ТорговаяПлощадка.xml
-DataProcessors\ЗагрузкаКурсовБумаг.xml-->DataProcessors\ЗагрузкаКурсовБумаг.xml
-DataProcessors\ЗагрузкаКурсовБумаг\Forms\Форма.xml-->DataProcessors\ЗагрузкаКурсовБумаг\Forms\Форма.xml
-DataProcessors\ЗагрузкаКурсовБумаг\Forms\Форма\Ext\Form.xml-->DataProcessors\ЗагрузкаКурсовБумаг\Forms\Форма\Ext\Form.xml
-DataProcessors\ЗагрузкаКурсовБумаг\Forms\Форма\Ext\Form\Module.bsl-->DataProcessors\ЗагрузкаКурсовБумаг\Forms\Форма\Ext\Form\Module.bsl
+DataProcessors\ЗагрузкаКотировок.xml-->DataProcessors\ЗагрузкаКотировок.xml
+DataProcessors\ЗагрузкаКотировок\Forms\Форма.xml-->DataProcessors\ЗагрузкаКотировок\Forms\Форма.xml
+DataProcessors\ЗагрузкаКотировок\Forms\Форма\Ext\Form.xml-->DataProcessors\ЗагрузкаКотировок\Forms\Форма\Ext\Form.xml
+DataProcessors\ЗагрузкаКотировок\Forms\Форма\Ext\Form\Module.bsl-->DataProcessors\ЗагрузкаКотировок\Forms\Форма\Ext\Form\Module.bsl
 Documents\ВводСредств.xml-->Documents\ВводСредств.xml
 Documents\ВыводСредств.xml-->Documents\ВыводСредств.xml
 Documents\ПокупкаЦенныхБумаг.xml-->Documents\ПокупкаЦенныхБумаг.xml
@@ -114,7 +114,7 @@ Ext\HomePageWorkArea.xml-->Ext\HomePageWorkArea.xml
 Ext\Logo.xml-->Ext\Logo.xml
 Ext\Logo\Picture.jpg-->Ext\Logo\Picture.jpg
 InformationRegisters\КомиссияБрокера.xml-->InformationRegisters\КомиссияБрокера.xml
-InformationRegisters\КурсыБумаг.xml-->InformationRegisters\КурсыБумаг.xml
+InformationRegisters\КотировкиЦенныхБумаг.xml-->InformationRegisters\КотировкиЦенныхБумаг.xml
 Languages\Русский.xml-->Languages\Русский.xml
 Subsystems\Администрирование.xml-->Subsystems\Администрирование.xml
 Subsystems\ЗатратыИНалогообложение.xml-->Subsystems\ЗатратыИНалогообложение.xml

@@ -110,9 +110,9 @@
 		<Metadata name="Constant.Брокер" id="f495534f-4180-461d-b615-da5ad1b375df" configVersion="9904126350653e4382f8c1d763b1a63400000000"/>
 		<Metadata name="Constant.Счет" id="b3e6a151-0f3e-4cee-967c-0eebe8439db1" configVersion="615c67a5aa75764faa97c8c40760cdfe00000000"/>
 		<Metadata name="Constant.ТорговаяПлощадка" id="6a96aee6-8a55-4606-816c-607055cbace6" configVersion="ff193438eeb3e04b917a7f8f8ae22e0300000000"/>
-		<Metadata name="DataProcessor.ЗагрузкаКурсовБумаг" id="90ac2f0e-65ba-486c-88c2-fb494294b71c" configVersion="233bf1227d2c61419739e2888a27390800000000"/>
-		<Metadata name="DataProcessor.ЗагрузкаКурсовБумаг.Form.Форма" id="60c4b97c-a816-4b54-9342-2fa40d938775" configVersion="f8163da5d6f20144a37425ecc634a85000000000"/>
-		<Metadata name="DataProcessor.ЗагрузкаКурсовБумаг.Form.Форма.Form" id="60c4b97c-a816-4b54-9342-2fa40d938775.0" configVersion="fbc2c026862690439be0e2d189b5c11900000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаКотировок" id="90ac2f0e-65ba-486c-88c2-fb494294b71c" configVersion="29bff3f8cf47ec4a9703dc2dad0619ff00000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаКотировок.Form.Форма" id="60c4b97c-a816-4b54-9342-2fa40d938775" configVersion="f8163da5d6f20144a37425ecc634a85000000000"/>
+		<Metadata name="DataProcessor.ЗагрузкаКотировок.Form.Форма.Form" id="60c4b97c-a816-4b54-9342-2fa40d938775.0" configVersion="fbc2c026862690439be0e2d189b5c11900000000"/>
 		<Metadata name="Document.ВводСредств" id="e576266e-c70e-4ab1-ac7c-80bc66320439" configVersion="b1dbb7666e65fc4c9a3c7409ccb3316900000000">
 			<Metadata name="Document.ВводСредств.Attribute.Сумма" id="2c19b3cd-1ff8-4c48-80a2-724f5de1eaf0"/>
 			<Metadata name="Document.ВводСредств.Attribute.Комиссия" id="5fab89f1-61da-465e-b8e3-e05713c7dc71"/>
@@ -184,15 +184,15 @@
 			<Metadata name="InformationRegister.КомиссияБрокера.Resource.ПроцентКомиссии" id="ad9424f5-de5c-410f-91f3-f170d849795f"/>
 			<Metadata name="InformationRegister.КомиссияБрокера.Dimension.ВидБумаг" id="f8399686-fa54-4896-a957-f0286cf0f260"/>
 		</Metadata>
-		<Metadata name="InformationRegister.КурсыБумаг" id="557a31e3-9c26-4eac-ab94-4d7afd4ba062" configVersion="a56a47d64c042a4a879bd1ffe6637a4f00000000">
-			<Metadata name="InformationRegister.КурсыБумаг.Dimension.ТипПериода" id="22b3755a-b29e-442d-8d66-8d5166d6f375"/>
-			<Metadata name="InformationRegister.КурсыБумаг.Dimension.Бумага" id="307f67ba-09f2-4346-9fa5-1c8ff5d9285a"/>
-			<Metadata name="InformationRegister.КурсыБумаг.Dimension.ТорговаяПлощадка" id="3d08572c-cce5-4a41-acb2-9263f7811db6"/>
-			<Metadata name="InformationRegister.КурсыБумаг.Resource.Открытие" id="71b67fd0-3f9c-4b2d-bb08-6f37ade4128d"/>
-			<Metadata name="InformationRegister.КурсыБумаг.Resource.Минимум" id="7a3fbf17-8a92-4037-b182-a9029658f77f"/>
-			<Metadata name="InformationRegister.КурсыБумаг.Resource.Закрытие" id="94c20715-a4c9-493e-92a4-1f70eba3f577"/>
-			<Metadata name="InformationRegister.КурсыБумаг.Resource.Количество" id="b101e1c2-df29-4df0-bcc3-7d15b4964995"/>
-			<Metadata name="InformationRegister.КурсыБумаг.Resource.Максимум" id="c6373fc8-3f27-409e-b5ef-65e299c51596"/>
+		<Metadata name="InformationRegister.КотировкиЦенныхБумаг" id="557a31e3-9c26-4eac-ab94-4d7afd4ba062" configVersion="1f9e57221f29af40bb1ad2d1800a000500000000">
+			<Metadata name="InformationRegister.КотировкиЦенныхБумаг.Dimension.ТипПериода" id="22b3755a-b29e-442d-8d66-8d5166d6f375"/>
+			<Metadata name="InformationRegister.КотировкиЦенныхБумаг.Dimension.Бумага" id="307f67ba-09f2-4346-9fa5-1c8ff5d9285a"/>
+			<Metadata name="InformationRegister.КотировкиЦенныхБумаг.Dimension.ТорговаяПлощадка" id="3d08572c-cce5-4a41-acb2-9263f7811db6"/>
+			<Metadata name="InformationRegister.КотировкиЦенныхБумаг.Resource.Открытие" id="71b67fd0-3f9c-4b2d-bb08-6f37ade4128d"/>
+			<Metadata name="InformationRegister.КотировкиЦенныхБумаг.Resource.Минимум" id="7a3fbf17-8a92-4037-b182-a9029658f77f"/>
+			<Metadata name="InformationRegister.КотировкиЦенныхБумаг.Resource.Закрытие" id="94c20715-a4c9-493e-92a4-1f70eba3f577"/>
+			<Metadata name="InformationRegister.КотировкиЦенныхБумаг.Resource.Количество" id="b101e1c2-df29-4df0-bcc3-7d15b4964995"/>
+			<Metadata name="InformationRegister.КотировкиЦенныхБумаг.Resource.Максимум" id="c6373fc8-3f27-409e-b5ef-65e299c51596"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="cd21c69e-dc97-4e36-9f07-3d41d76b6f7d" configVersion="fa6d85f205fa9e41948d35424a021c8200000000"/>
 		<Metadata name="Subsystem.Администрирование" id="d4b2cc92-9951-4554-b68f-01f8a17cbe55" configVersion="b5c341c288ea3649a1ba1ffafc4618c100000000"/>
