@@ -5,6 +5,11 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
+		<InputField name="ТорговаяПлощадка" id="15">
+			<DataPath>ТорговаяПлощадка</DataPath>
+			<ContextMenu name="ТорговаяПлощадкаКонтекстноеМеню" id="16"/>
+			<ExtendedTooltip name="ТорговаяПлощадкаРасширеннаяПодсказка" id="17"/>
+		</InputField>
 		<InputField name="Инструмент" id="1">
 			<DataPath>Инструмент</DataPath>
 			<ContextMenu name="ИнструментКонтекстноеМеню" id="2"/>
@@ -86,6 +91,17 @@
 			</Title>
 			<Type>
 				<v8:Type>cfg:EnumRef.ТипыПериода</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТорговаяПлощадка" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Торговая площадка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ТорговыеПлощадки</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
