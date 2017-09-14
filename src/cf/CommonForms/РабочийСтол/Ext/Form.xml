@@ -2,6 +2,10 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
 	<ShowTitle>false</ShowTitle>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
 		<Pages name="ГруппаСтраницы" id="1">
 			<Title>
@@ -91,6 +95,102 @@
 								</Button>
 							</ChildItems>
 						</UsualGroup>
+						<UsualGroup name="ГруппаПериод" id="53">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Период</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа период</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>NormalSeparation</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПериодРасширеннаяПодсказка" id="54"/>
+							<ChildItems>
+								<InputField name="ДатаОстатков" id="25">
+									<DataPath>ДатаОстатков</DataPath>
+									<ContextMenu name="ДатаОстатковКонтекстноеМеню" id="26"/>
+									<ExtendedTooltip name="ДатаОстатковРасширеннаяПодсказка" id="27"/>
+									<Events>
+										<Event name="OnChange">ДатаОстатковПриИзменении</Event>
+									</Events>
+								</InputField>
+								<Button name="ОбновитьБалансовуюСтоимость" id="55">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ОбновитьБалансовуюСтоимость</CommandName>
+									<ExtendedTooltip name="ОбновитьБалансовуюСтоимостьРасширеннаяПодсказка" id="56"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<Table name="ОстаткиБумаг" id="28">
+							<Representation>List</Representation>
+							<ReadOnly>true</ReadOnly>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>ОстаткиБумаг</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ОстаткиБумагКонтекстноеМеню" id="29"/>
+							<AutoCommandBar name="ОстаткиБумагКоманднаяПанель" id="30"/>
+							<ExtendedTooltip name="ОстаткиБумагРасширеннаяПодсказка" id="31"/>
+							<SearchStringAddition name="ОстаткиБумагСтрокаПоиска" id="32">
+								<AdditionSource>
+									<Item>ОстаткиБумаг</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ОстаткиБумагСтрокаПоискаКонтекстноеМеню" id="33"/>
+								<ExtendedTooltip name="ОстаткиБумагСтрокаПоискаРасширеннаяПодсказка" id="34"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ОстаткиБумагСостояниеПросмотра" id="35">
+								<AdditionSource>
+									<Item>ОстаткиБумаг</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ОстаткиБумагСостояниеПросмотраКонтекстноеМеню" id="36"/>
+								<ExtendedTooltip name="ОстаткиБумагСостояниеПросмотраРасширеннаяПодсказка" id="37"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ОстаткиБумагУправлениеПоиском" id="38">
+								<AdditionSource>
+									<Item>ОстаткиБумаг</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ОстаткиБумагУправлениеПоискомКонтекстноеМеню" id="39"/>
+								<ExtendedTooltip name="ОстаткиБумагУправлениеПоискомРасширеннаяПодсказка" id="40"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="ОстаткиБумагБумага" id="41">
+									<DataPath>ОстаткиБумаг.Бумага</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОстаткиБумагБумагаКонтекстноеМеню" id="42"/>
+									<ExtendedTooltip name="ОстаткиБумагБумагаРасширеннаяПодсказка" id="43"/>
+								</InputField>
+								<InputField name="ОстаткиБумагКоличество" id="44">
+									<DataPath>ОстаткиБумаг.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОстаткиБумагКоличествоКонтекстноеМеню" id="45"/>
+									<ExtendedTooltip name="ОстаткиБумагКоличествоРасширеннаяПодсказка" id="46"/>
+								</InputField>
+								<InputField name="ОстаткиБумагБалансоваяСтоимость" id="47">
+									<DataPath>ОстаткиБумаг.БалансоваяСтоимость</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОстаткиБумагБалансоваяСтоимостьКонтекстноеМеню" id="48"/>
+									<ExtendedTooltip name="ОстаткиБумагБалансоваяСтоимостьРасширеннаяПодсказка" id="49"/>
+								</InputField>
+								<InputField name="ОстаткиБумагРасчетнаяСтоимость" id="50">
+									<DataPath>ОстаткиБумаг.РасчетнаяСтоимость</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОстаткиБумагРасчетнаяСтоимостьКонтекстноеМеню" id="51"/>
+									<ExtendedTooltip name="ОстаткиБумагРасчетнаяСтоимостьРасширеннаяПодсказка" id="52"/>
+								</InputField>
+							</ChildItems>
+						</Table>
 					</ChildItems>
 				</Page>
 				<Page name="ГруппаДенежныеСредства" id="17">
@@ -162,10 +262,278 @@
 								</Button>
 							</ChildItems>
 						</UsualGroup>
+						<UsualGroup name="ГруппаПериодДеньги" id="57">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Период</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа период</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>NormalSeparation</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПериодДеньгиРасширеннаяПодсказка" id="58"/>
+							<ChildItems>
+								<InputField name="ДатаОстатковДеньги" id="59">
+									<DataPath>ДатаОстатковДеньги</DataPath>
+									<ContextMenu name="ДатаОстатковДеньгиКонтекстноеМеню" id="60"/>
+									<ExtendedTooltip name="ДатаОстатковДеньгиРасширеннаяПодсказка" id="61"/>
+									<Events>
+										<Event name="OnChange">ДатаОстатковДеньгиПриИзменении</Event>
+									</Events>
+								</InputField>
+								<Button name="ОбновитьОстаткиДенежныхСредств" id="62">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ОбновитьОстаткиДенежныхСредств</CommandName>
+									<ExtendedTooltip name="ОбновитьОстаткиДенежныхСредствРасширеннаяПодсказка" id="63"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<Table name="ОстаткиДенег" id="64">
+							<Representation>List</Representation>
+							<ReadOnly>true</ReadOnly>
+							<ChangeRowSet>false</ChangeRowSet>
+							<ChangeRowOrder>false</ChangeRowOrder>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>ОстаткиДенег</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ОстаткиДенегКонтекстноеМеню" id="65"/>
+							<AutoCommandBar name="ОстаткиДенегКоманднаяПанель" id="66"/>
+							<ExtendedTooltip name="ОстаткиДенегРасширеннаяПодсказка" id="67"/>
+							<SearchStringAddition name="ОстаткиДенегСтрокаПоиска" id="68">
+								<AdditionSource>
+									<Item>ОстаткиДенег</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ОстаткиДенегСтрокаПоискаКонтекстноеМеню" id="69"/>
+								<ExtendedTooltip name="ОстаткиДенегСтрокаПоискаРасширеннаяПодсказка" id="70"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ОстаткиДенегСостояниеПросмотра" id="71">
+								<AdditionSource>
+									<Item>ОстаткиДенег</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ОстаткиДенегСостояниеПросмотраКонтекстноеМеню" id="72"/>
+								<ExtendedTooltip name="ОстаткиДенегСостояниеПросмотраРасширеннаяПодсказка" id="73"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ОстаткиДенегУправлениеПоиском" id="74">
+								<AdditionSource>
+									<Item>ОстаткиДенег</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ОстаткиДенегУправлениеПоискомКонтекстноеМеню" id="75"/>
+								<ExtendedTooltip name="ОстаткиДенегУправлениеПоискомРасширеннаяПодсказка" id="76"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="ОстаткиДенегСчет" id="77">
+									<DataPath>ОстаткиДенег.Счет</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОстаткиДенегСчетКонтекстноеМеню" id="78"/>
+									<ExtendedTooltip name="ОстаткиДенегСчетРасширеннаяПодсказка" id="79"/>
+								</InputField>
+								<InputField name="ОстаткиДенегСумма" id="80">
+									<DataPath>ОстаткиДенег.Сумма</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ОстаткиДенегСуммаКонтекстноеМеню" id="81"/>
+									<ExtendedTooltip name="ОстаткиДенегСуммаРасширеннаяПодсказка" id="82"/>
+								</InputField>
+							</ChildItems>
+						</Table>
 					</ChildItems>
 				</Page>
 			</ChildItems>
 		</Pages>
 	</ChildItems>
-	<Attributes/>
+	<Attributes>
+		<Attribute name="ОстаткиБумаг" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остатки бумаг</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Бумага" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Бумага</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЦенныеБумаги</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Количество" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Количество</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>20</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="БалансоваяСтоимость" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Балансовая стоимость</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="РасчетнаяСтоимость" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расчетная стоимость</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ДатаОстатков" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата остатков</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаОстатковДеньги" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата остатков</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОстаткиДенег" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остатки денег</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Счет" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Счет</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДенежныеСчета</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Сумма" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОбновитьБалансовуюСтоимость" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить балансовую стоимость</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбновитьБалансовуюСтоимость</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ОбновитьОстаткиДенежныхСредств" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить остатки ДС</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбновитьОстаткиДенежныхСредств</Action>
+			<Representation>Picture</Representation>
+		</Command>
+	</Commands>
 </Form>

@@ -1,6 +1,7 @@
 ﻿ConfigDumpInfo.xml-->ConfigDumpInfo.xml
 Configuration.xml-->Configuration.xml
 AccumulationRegisters\БалансоваяСтоимостьБумаг.xml-->AccumulationRegisters\БалансоваяСтоимостьБумаг.xml
+AccumulationRegisters\Доходы.xml-->AccumulationRegisters\Доходы.xml
 AccumulationRegisters\Затраты.xml-->AccumulationRegisters\Затраты.xml
 AccumulationRegisters\ОстаткиДенежныхСредств.xml-->AccumulationRegisters\ОстаткиДенежныхСредств.xml
 Catalogs\Брокеры.xml-->Catalogs\Брокеры.xml
@@ -35,11 +36,15 @@ Catalogs\Эмитенты\Forms\ФормаЭлемента.xml-->Catalogs\Эми
 Catalogs\Эмитенты\Forms\ФормаСписка\Ext\Form.xml-->Catalogs\Эмитенты\Forms\ФормаСписка\Ext\Form.xml
 Catalogs\Эмитенты\Forms\ФормаЭлемента\Ext\Form.xml-->Catalogs\Эмитенты\Forms\ФормаЭлемента\Ext\Form.xml
 Catalogs\Эмитенты\Forms\ФормаЭлемента\Ext\Form\Module.bsl-->Catalogs\Эмитенты\Forms\ФормаЭлемента\Ext\Form\Module.bsl
+CommandGroups\Документы.xml-->CommandGroups\Документы.xml
+CommandGroups\Справочники.xml-->CommandGroups\Справочники.xml
 CommonForms\НастройкаПараметровУчета.xml-->CommonForms\НастройкаПараметровУчета.xml
 CommonForms\РабочийСтол.xml-->CommonForms\РабочийСтол.xml
 CommonForms\НастройкаПараметровУчета\Ext\Form.xml-->CommonForms\НастройкаПараметровУчета\Ext\Form.xml
 CommonForms\РабочийСтол\Ext\Form.xml-->CommonForms\РабочийСтол\Ext\Form.xml
+CommonForms\РабочийСтол\Ext\Form\Module.bsl-->CommonForms\РабочийСтол\Ext\Form\Module.bsl
 CommonModules\ДенежныеСредстваСервер.xml-->CommonModules\ДенежныеСредстваСервер.xml
+CommonModules\ДоходыСервер.xml-->CommonModules\ДоходыСервер.xml
 CommonModules\ЗаполнениеДокументовСервер.xml-->CommonModules\ЗаполнениеДокументовСервер.xml
 CommonModules\ЗатратыСервер.xml-->CommonModules\ЗатратыСервер.xml
 CommonModules\ОбщегоНазначенияКлиент.xml-->CommonModules\ОбщегоНазначенияКлиент.xml
@@ -47,6 +52,7 @@ CommonModules\ОбщегоНазначенияСерверПовтИсп.xml-->C
 CommonModules\ПомошникИнтеграциииHTTPСервисовКлиентСервер.xml-->CommonModules\ПомошникИнтеграциииHTTPСервисовКлиентСервер.xml
 CommonModules\ЦенныеБумагиСервер.xml-->CommonModules\ЦенныеБумагиСервер.xml
 CommonModules\ДенежныеСредстваСервер\Ext\Module.bsl-->CommonModules\ДенежныеСредстваСервер\Ext\Module.bsl
+CommonModules\ДоходыСервер\Ext\Module.bsl-->CommonModules\ДоходыСервер\Ext\Module.bsl
 CommonModules\ЗаполнениеДокументовСервер\Ext\Module.bsl-->CommonModules\ЗаполнениеДокументовСервер\Ext\Module.bsl
 CommonModules\ЗатратыСервер\Ext\Module.bsl-->CommonModules\ЗатратыСервер\Ext\Module.bsl
 CommonModules\ОбщегоНазначенияКлиент\Ext\Module.bsl-->CommonModules\ОбщегоНазначенияКлиент\Ext\Module.bsl
@@ -94,9 +100,11 @@ Documents\ПродажаЦенныхБумаг.xml-->Documents\ПродажаЦ�
 Documents\ВводСредств\Ext\ObjectModule.bsl-->Documents\ВводСредств\Ext\ObjectModule.bsl
 Documents\ВводСредств\Forms\ФормаДокумента.xml-->Documents\ВводСредств\Forms\ФормаДокумента.xml
 Documents\ВводСредств\Forms\ФормаДокумента\Ext\Form.xml-->Documents\ВводСредств\Forms\ФормаДокумента\Ext\Form.xml
+Documents\ВводСредств\Forms\ФормаДокумента\Ext\Form\Module.bsl-->Documents\ВводСредств\Forms\ФормаДокумента\Ext\Form\Module.bsl
 Documents\ВыводСредств\Ext\ObjectModule.bsl-->Documents\ВыводСредств\Ext\ObjectModule.bsl
 Documents\ВыводСредств\Forms\ФормаДокумента.xml-->Documents\ВыводСредств\Forms\ФормаДокумента.xml
 Documents\ВыводСредств\Forms\ФормаДокумента\Ext\Form.xml-->Documents\ВыводСредств\Forms\ФормаДокумента\Ext\Form.xml
+Documents\ВыводСредств\Forms\ФормаДокумента\Ext\Form\Module.bsl-->Documents\ВыводСредств\Forms\ФормаДокумента\Ext\Form\Module.bsl
 Documents\ПокупкаЦенныхБумаг\Ext\ObjectModule.bsl-->Documents\ПокупкаЦенныхБумаг\Ext\ObjectModule.bsl
 Documents\ПокупкаЦенныхБумаг\Forms\ФормаДокумента.xml-->Documents\ПокупкаЦенныхБумаг\Forms\ФормаДокумента.xml
 Documents\ПокупкаЦенныхБумаг\Forms\ФормаДокумента\Ext\Form.xml-->Documents\ПокупкаЦенныхБумаг\Forms\ФормаДокумента\Ext\Form.xml
@@ -106,6 +114,7 @@ Documents\ПродажаЦенныхБумаг\Forms\ФормаДокумент�
 Documents\ПродажаЦенныхБумаг\Forms\ФормаДокумента\Ext\Form.xml-->Documents\ПродажаЦенныхБумаг\Forms\ФормаДокумента\Ext\Form.xml
 Documents\ПродажаЦенныхБумаг\Forms\ФормаДокумента\Ext\Form\Module.bsl-->Documents\ПродажаЦенныхБумаг\Forms\ФормаДокумента\Ext\Form\Module.bsl
 Enums\ВидыЦенныхБумаг.xml-->Enums\ВидыЦенныхБумаг.xml
+Enums\ТипыДоходов.xml-->Enums\ТипыДоходов.xml
 Enums\ТипыЗатрат.xml-->Enums\ТипыЗатрат.xml
 Enums\ТипыПериода.xml-->Enums\ТипыПериода.xml
 Enums\ВидыЦенныхБумаг\Ext\ManagerModule.bsl-->Enums\ВидыЦенныхБумаг\Ext\ManagerModule.bsl

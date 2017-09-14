@@ -18,18 +18,19 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЦенныеБумаги</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ДенежныеСчета</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ВводСредств</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиДенежныхСредств</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыЦенныхБумаг</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ПокупкаЦенныхБумаг</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.БалансоваяСтоимостьБумаг</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ПродажаЦенныхБумаг</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЦенныеБумагиСервер</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыводСредств</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КотировкиЦенныхБумаг</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузкаКотировок</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ДенежныеСчета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЦенныеБумаги</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВводСредств</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыводСредств</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПокупкаЦенныхБумаг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПродажаЦенныхБумаг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Доходы</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -21,6 +21,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Эмитенты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Брокеры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КомиссияБрокера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">12949e6b-ac42-4cc8-931c-f7b0f1058ba2</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">aa391d75-6355-4e3c-af70-5f4458d3d93b</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

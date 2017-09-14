@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Валерий Дяченко</Vendor>
-			<Version>0.0.2.0</Version>
+			<Version>0.0.2.1</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -149,12 +149,15 @@
 			<CommonPicture>Бумаги</CommonPicture>
 			<CommonPicture>ДенежныеСредства</CommonPicture>
 			<CommonModule>ДенежныеСредстваСервер</CommonModule>
+			<CommonModule>ДоходыСервер</CommonModule>
 			<CommonModule>ЗаполнениеДокументовСервер</CommonModule>
 			<CommonModule>ЗатратыСервер</CommonModule>
 			<CommonModule>ОбщегоНазначенияКлиент</CommonModule>
-			<CommonModule>ЦенныеБумагиСервер</CommonModule>
 			<CommonModule>ОбщегоНазначенияСерверПовтИсп</CommonModule>
 			<CommonModule>ПомошникИнтеграциииHTTPСервисовКлиентСервер</CommonModule>
+			<CommonModule>ЦенныеБумагиСервер</CommonModule>
+			<CommandGroup>Справочники</CommandGroup>
+			<CommandGroup>Документы</CommandGroup>
 			<Constant>ТорговаяПлощадка</Constant>
 			<Constant>Брокер</Constant>
 			<Constant>Счет</Constant>
@@ -170,14 +173,16 @@
 			<Document>ПокупкаЦенныхБумаг</Document>
 			<Document>ПродажаЦенныхБумаг</Document>
 			<Enum>ВидыЦенныхБумаг</Enum>
+			<Enum>ТипыДоходов</Enum>
 			<Enum>ТипыЗатрат</Enum>
 			<Enum>ТипыПериода</Enum>
 			<DataProcessor>ЗагрузкаКотировок</DataProcessor>
 			<InformationRegister>КомиссияБрокера</InformationRegister>
 			<InformationRegister>КотировкиЦенныхБумаг</InformationRegister>
-			<AccumulationRegister>ОстаткиДенежныхСредств</AccumulationRegister>
-			<AccumulationRegister>Затраты</AccumulationRegister>
 			<AccumulationRegister>БалансоваяСтоимостьБумаг</AccumulationRegister>
+			<AccumulationRegister>Затраты</AccumulationRegister>
+			<AccumulationRegister>ОстаткиДенежныхСредств</AccumulationRegister>
+			<AccumulationRegister>Доходы</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

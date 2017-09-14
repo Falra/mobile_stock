@@ -21,6 +21,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Затраты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ТипыЗатрат</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЗатратыСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Доходы</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
